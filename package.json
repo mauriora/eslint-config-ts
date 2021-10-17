@@ -1,0 +1,26 @@
+{
+  "name": "@mauriora/eslint-config-ts",
+  "description": "Basic rules for ts",
+  "keywords": ["eslint", "eslintconfig", "typescript"],
+  "version": "0.0.1",
+  "private": false,
+  "author": {
+    "name": "Mauri-Ora",
+    "email": "dennis.kuhn@kuhn.geek.co.nz"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {},
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.31.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/typescript-estree": "^4.31.0",
+    "eslint": "^7.32.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2019
+    },
+    "ignorePatterns": ["*.js", "dist"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ]
+  }
